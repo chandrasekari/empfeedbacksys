@@ -13,17 +13,6 @@ UI/UX: Bootstrap components, modals, alerts, responsive layout
 
 Validation: Form validation for feedback and employee forms
 
-✨ Features
-Employee Management
-
-Add, update, and list employees
-
-Clean separation of concerns with employeesSlice
-
-Feedback Management
-
-Add, edit, and delete feedbacks per employee
-
 Feedback stored in employeeFeedbacksSlice
 
 Restricts editing feedback after 24 hours
