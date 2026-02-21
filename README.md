@@ -1,3 +1,65 @@
+
+📌 Project Description: Employee Feedback System
+The Employee Feedback System is a full‑stack web application built with React, Redux Toolkit, Redux Thunk, React Router, Bootstrap, and Node.js. It enables organizations to manage employees and collect structured feedback in a professional, user‑friendly way.
+
+🔧 Tech Stack
+Frontend: React, Redux Toolkit, Redux Thunk, React Router, Bootstrap
+
+Backend: Node.js (REST API)
+
+State Management: Redux slices (employees, feedbacks)
+
+UI/UX: Bootstrap components, modals, alerts, responsive layout
+
+Validation: Form validation for feedback and employee forms
+
+✨ Features
+Employee Management
+
+Add, update, and list employees
+
+Clean separation of concerns with employeesSlice
+
+Feedback Management
+
+Add, edit, and delete feedbacks per employee
+
+Feedback stored in employeeFeedbacksSlice
+
+Restricts editing feedback after 24 hours
+
+Confirmation dialogs before deletion
+
+Feedback Modal
+
+Modal form for submitting feedback
+
+Field‑level validation (required fields, trimmed input)
+
+Prevents duplicate submissions within 24 hours
+
+Routing
+
+Separate views for managing employees and feedback
+
+Navigation between modules using React Router
+
+UI Enhancements
+
+Alternating left/right alignment for feedbacks (chat‑like style)
+
+Live comments feed look for feedback threads
+
+Bootstrap styling for tables, cards, modals, alerts
+
+🚀 Workflow
+ManagerEmployee View → Manage employees (CRUD).
+
+FeedbackManager View → View and moderate feedbacks.
+
+FeedbackModal → Add or edit feedback with validation.
+
+Redux Store → Combines employees and employeeFeedbacks slices for scalable architecture.
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
